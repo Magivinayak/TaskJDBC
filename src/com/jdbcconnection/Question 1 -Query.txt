@@ -1,0 +1,11 @@
+1a)select ename,sal from empl where sal>=2200;
+
+1b)select * from empl where comm is null or comm=0;
+
+1c)select ename,sal from empl where not comm between 2500 and 4000;
+
+1d)select ename,job ,sal from empl where mgr is null;
+
+1e)select * from empl where ename like '__A%';
+
+1f)select * from empl where ename like '%T';
